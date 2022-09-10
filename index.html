@@ -18,7 +18,7 @@
 			<div class="wizard-form">
 				<form class="form-register" action="#" method="post">
 					<div style="text-align:center;margin-top:20px;">
-								 <h1 class="heading">Biénvenue sur  UPL - INSCRIPTION</h1>
+								 <h1 class="heading">Bienvenue sur  UPL - INSCRIPTION</h1>
 									<p>Voici un formulaire d'inscription. </p>
 							</div>
 				</form>
@@ -81,14 +81,17 @@
 								<div class="form-row">
 									<div class="form-holder">
 										<fieldset>
-											<legend>Nom du Responsable</legend>
-											<input type="text" class="form-control" id="name-resp" name="name-resp" placeholder="Nom reponsable" required>
+											<legend>nom du responsable</legend>
+											<input type="text" class="form-control" id="name-resp" name="name-resp" placeholder="Nom du pere/Nom de la mere" required>
 										</fieldset>
 									</div>
+
+
+									
 									<div class="form-holder">
 										<fieldset>
-											<legend>Telephone</legend>
-											<input type="number" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="Tel responsable" required>
+											<legend>provice d'origine de parents</legend>
+											<input type="text" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="provice d'origine de parents" required>
 										</fieldset>
 									</div>
 								</div>
@@ -96,6 +99,19 @@
 									<div class="form-holder form-holder-2">
 										<legend>Date de Naissance</legend>
 										<input type="date" name="date" id="">
+									</div>
+
+									<div class="form-holder">
+										<fieldset>
+											<legend>district</legend>
+											<input type="text" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="district" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>territoire</legend>
+											<input type="text" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="territiore" required>
+										</fieldset>
 									</div>
 								</div>
 								<!-- la date -->
@@ -117,6 +133,15 @@
 										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Etat Civil" required>
 									</div>
 								</div>
+
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>identite  et adresse de la personne a conctacter en cas d'urgence</legend>
+										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="nom_adresse_numero...." required>
+									</div>
+								</div>
+
+
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Adresse de Résidence</legend>
@@ -154,7 +179,7 @@
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<fieldset>
-											<legend>Nom de l'établissement fréquenté</legend>
+											<legend>diplome d'acces a l'enseignement superieur et universitaire</legend>
 											<input type="text" name="ecole" id="ecole" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Nom de l'établissement fréquenté" required>
 										</fieldset>
 									</div>
@@ -200,10 +225,13 @@
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<fieldset>
-											<legend>Autres informations</legend>
-											<input type="text" name="onfo" id="onfo" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Autres informations" required>
+											<legend>province</legend>
+											<input type="text" name="onfo" id="onfo" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="" required>
 										</fieldset>
 									</div>
+
+									
+										
 								</div>
 							</div>
 							<div class="wizard-header">
@@ -235,10 +263,15 @@
 			                			</label>
 			                			<div class="plan-total">
 		                					<span class="plan-title">Informatique</span>
-											
-		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
-											
-											
+											<div class="select-style">
+												<select>
+												<option value="filliere">filier</option>
+												<option value="isi">ingenieurie des systeme informatique</option>
+												<option value="RT">reseaux et telecommunication</option>
+												<option value="IG">informatique de gestion</option>
+												</select>
+											  </div>
+											  	
 		                				</div>
 										
 			                		
@@ -249,7 +282,12 @@
 			                			</label>
 			                			<div class="plan-total">
 		                					<span class="plan-title">Théologie</span>
-		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                					<div class="select-style">
+												<select>
+												<option value="filliere">filier</option>
+												
+												</select>
+											  </div>
 		                				</div>
 
 										<label class="plan-icon plan-2-label" for="plan-2">
@@ -258,7 +296,14 @@
 									</label>
 									<div class="plan-total">
 										<span class="plan-title">Sciences de l’Information et de la Communication</span>
-										<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat</p>
+										<div class="select-style">
+											<select>
+											<option value="filliere">filier</option>
+											<option value="isi">journalisme</option>
+											<option value="RT">communication des organisation</option>
+											<option value="IG">multimedia et communication digital</option>
+											</select>
+										  </div>
 									</div>
 
 									<label class="plan-icon plan-2-label" for="plan-2">
@@ -267,7 +312,14 @@
 								</label>
 								<div class="plan-total">
 									<span class="plan-title">Sciences Économiques et Management</span>
-									<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+									<div class="select-style">
+										<select>
+										<option value="filliere">filier</option>
+										<option value="isi">finace de banque</option>
+										<option value="RT">marketing</option>
+										<option value="IG">ressource humaines</option>
+										</select>
+									  </div>
 								</div>
 
 										<input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3" checked>
@@ -277,7 +329,15 @@
 
 										<div class="plan-total">
 		                					<span class="plan-title">Polytechnique</span>
-		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+											<div class="select-style">
+												<select>
+												<option value="filliere">filier</option>
+												<option value="isi">Genie des materiel et de procedes</option>
+												<option value="RT">Electromanetique</option>
+												<option value="IG">Architecture</option>
+												<option value="#">Geomines</option>
+												</select>
+											  </div>
 		                				</div>
 
 										<input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3" checked>
@@ -287,7 +347,12 @@
 										
 										<div class="plan-total">
 		                					<span class="plan-title">Droit</span>
-		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                					<div class="select-style">
+												<select>
+												<option value="filliere">Droit</option>
+												
+												</select>
+											  </div>
 		                				</div>
 										
 										<input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3" checked>
@@ -296,7 +361,14 @@
 										</label>
 										<div class="plan-total">
 		                					<span class="plan-title">Lettres et sciences humaines</span>
-		                					<p class="plan-text">Pellentesque nec nam aliquam sem et volutpat consequat mauris nunc congue nisi.</p>
+		                					<div class="select-style">
+												<select>
+												<option value="filliere">filier</option>
+												<option value="isi">ingenieurie des systeme informatique</option>
+												<option value="RT">reseaux et telecommunication</option>
+												<option value="IG">informatique de gestion</option>
+												</select>
+											  </div>
 		                				</div>
 			                		</div>
 			                	</div>
