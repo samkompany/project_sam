@@ -27,10 +27,11 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="page-content">
 		<div class="form-v1-content">
 			<div class="wizard-form">
-		        <form class="form-register" action="#" method="post">
+		        <form class="form-register" action="recuperation.php" method="post">
 		        	<div id="form-total">
 		        		<!-- SECTION 1 -->
 			            <h2>
@@ -85,7 +86,7 @@
 										<fieldset>
 											<legend>nom du responsable</legend>
 											<input type="text" class="form-control" id="name-resp" name="name-resp" placeholder="Nom du pere/Nom de la mere" required>
-										</fieldset>
+										</fieldset> 
 									</div>
 
 
@@ -330,6 +331,8 @@
 
 										<div class="plan-total">
 		                					<span class="plan-title">Polytechnique</span>
+											<input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3" checked>
+
 											<div class="select-style">
 												<select>
 												<option value="filliere">filier</option>
@@ -427,3 +430,34 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
+
+<?php
+
+$con=mysqli_connect("localhost","root","","test");
+if(isset($_POST['']));
+
+$Prenom=$_POST['Prenom'];
+$Post_Nom=$_POST['Post_Nom'];
+$Nom=$_POST['Nom'];
+$Email=$_POST['Email'];
+$Telephone=$_POST['Telephone'];
+$Nom_du_pere=$_POST['Nom_du_pere'];
+$province_h=$_POST['province'];
+$Date_nn=$_POST['date_nn'];
+$district=$_POST['district'];
+$territoire=$_POST['territoire'];
+$Lieux_d=$_POST['Lieux_d'];
+$Nationalite=$_POST['Nationalite'];
+$etats_civil=$_POST['etats_civil'];
+$identite_et_adress=$_POST['identite_et_adress'];
+$Adress_de_Résidence=$_POST['Adress_de_Résidence'];
+$genre=$_POST['genre'];
+
+
+$insert="INSERT INTO information SET Prenom='$Prenom',Post_Nom='$Post_Nom',Nom='$Nom',Email='$Email',Telephone='$Telephone',Nom_du_pere='$Nom_du_pere',province_h='$province_h',Date_nn='$Date_nn',distric='$district',territoire='$territoire',Lieux_d='$Lieux_d',Nationalite='$Nationalite',etats_civil='$etats_civil',identite_et_adress=$identite_et_adress,Adress_de_Résidence='$Adress_de_Résidence',genre='$genre'";
+
+$query=mysqli_query($con,$insert);
+
+
+
+?>
