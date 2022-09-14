@@ -49,19 +49,19 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>Prénom</legend>
-											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="Prénom" required>
+											<input type="text" class="form-control" id="Prenom" name="Prenom" placeholder="Prénom" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Post-nom</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Post-Nom" required>
+											<input type="text" class="form-control" id="Post_nom" name="Post_nom" placeholder="Post-Nom" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Nom</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Nom" required>
+											<input type="text" class="form-control" id="Nom" name="Nom" placeholder="Nom" required>
 										</fieldset>
 									</div>
 								</div>
@@ -69,7 +69,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Votre Email</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="exemple@email.com" required>
+											<input type="text" name="Email" id="Email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="exemple@email.com" required>
 										</fieldset>
 									</div>
 								</div>
@@ -77,7 +77,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Téléphone</legend>
-											<input type="tel" class="form-control" id="phone" name="phone" placeholder="+243" required>
+											<input type="tel" class="form-control" id="Telephone" name="Telephone" placeholder="+243" required>
 										</fieldset>
 									</div>
 								</div>
@@ -85,7 +85,7 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>nom du responsable</legend>
-											<input type="text" class="form-control" id="name-resp" name="name-resp" placeholder="Nom du pere/Nom de la mere" required>
+											<input type="text" class="form-control" id="Nom_du_pere" name="Nom_du_pere" placeholder="Nom du pere/Nom de la mere" required>
 										</fieldset> 
 									</div>
 
@@ -94,26 +94,26 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>provice d'origine de parents</legend>
-											<input type="text" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="provice d'origine de parents" required>
+											<input type="text" class="form-control" id="province_h" name="province_h" placeholder="provice d'origine de parents" required>
 										</fieldset>
 									</div>
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
 										<legend>Date de Naissance</legend>
-										<input type="date" name="date" id="">
+										<input type="Date" name="Date_nn" id="Date_nn">
 									</div>
 
 									<div class="form-holder">
 										<fieldset>
 											<legend>district</legend>
-											<input type="text" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="district" required>
+											<input type="text" class="form-control" id="district" name="district" placeholder="district" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>territoire</legend>
-											<input type="text" class="form-control" id="Tel-resp" name="Tel-resp" placeholder="territiore" required>
+											<input type="text" class="form-control" id="territoire" name="territoire" placeholder="territiore" required>
 										</fieldset>
 									</div>
 								</div>
@@ -121,26 +121,26 @@
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Lieu de Naissance</legend>
-										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Lieu de Naissance" required>
+										<input type="text" class="form-control input-border" id="Lieux_d" name="Lieux_d" placeholder="Lieu de Naissance" required>
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Nationalité</legend>
-										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Nationalité" required>
+										<input type="text" class="form-control input-border" id="Nationalite" name="Nationalite" placeholder="Nationalité" required>
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Etat Civil</legend>
-										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Etat Civil" required>
+										<input type="text" class="form-control input-border" id="etats_civil" name="etats_civil" placeholder="Etat Civil" required>
 									</div>
 								</div>
 
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>identite  et adresse de la personne a conctacter en cas d'urgence</legend>
-										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="nom_adresse_numero...." required>
+										<input type="text" class="form-control input-border" id="identite_et_adress" name="identite_et_adress" placeholder="nom_adresse_numero...." required>
 									</div>
 								</div>
 
@@ -148,19 +148,21 @@
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Adresse de Résidence</legend>
-										<input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="Adresse de Résidence" required>
+										<input type="text" class="form-control input-border" id="Adress_de_Résidence" name="Adress_de_Résidence" placeholder="Adresse de Résidence" required>
 									</div>
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
 										<legend>Genre:</legend>
-										<select name="Genre" id="Genre">
+										<select name="genre" id="genre">
 											<option value="M" >M</option>
 											<option value="F">F</option>
 										</select>
 									</div>
 								</div>
+								<input type="submit" name="En">
 							</div>
+
 							<div class="wizard-header">
 								<a href="https://upl-univ.ac/">
 									<h5 class="heading">Quitter L'inscription</h5>
@@ -416,9 +418,10 @@
 							</div>
 							<div class="wizard-header">
 								<a href="https://upl-univ.ac/">
-									<h5 class="heading">Revenier sur le site</h5>
+									<h5 class="heading" name>Revenier sur le site</h5>
 								</a>
 							</div>
+								
 			            </section>
 		        	</div>
 		        </form>
@@ -434,7 +437,7 @@
 <?php
 
 $con=mysqli_connect("localhost","root","","test");
-if(isset($_POST['']));
+if(isset($_POST['En'])){
 
 $Prenom=$_POST['Prenom'];
 $Post_Nom=$_POST['Post_Nom'];
@@ -457,7 +460,7 @@ $genre=$_POST['genre'];
 $insert="INSERT INTO information SET Prenom='$Prenom',Post_Nom='$Post_Nom',Nom='$Nom',Email='$Email',Telephone='$Telephone',Nom_du_pere='$Nom_du_pere',province_h='$province_h',Date_nn='$Date_nn',distric='$district',territoire='$territoire',Lieux_d='$Lieux_d',Nationalite='$Nationalite',etats_civil='$etats_civil',identite_et_adress=$identite_et_adress,Adress_de_Résidence='$Adress_de_Résidence',genre='$genre'";
 
 $query=mysqli_query($con,$insert);
-
+}
 
 
 ?>
