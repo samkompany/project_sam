@@ -13,6 +13,7 @@ $(function(){
             next : '<i class="zmdi zmdi-arrow-right"></i>',
             finish : '<i class="zmdi zmdi-check"></i>',
             current : ''
+            
         },
     })
 });
