@@ -303,9 +303,9 @@
 										<div class="select-style">
 											<select>
 											<option value="filliere">filier</option>
-											<option value="isi">journalisme</option>
-											<option value="RT">communication des organisation</option>
-											<option value="IG">multimedia et communication digital</option>
+											<option value="1">journalisme</option>
+											<option value="2">communication des organisation</option>
+											<option value="3">multimedia et communication digital</option>
 											</select>
 										  </div>
 									</div>
@@ -319,9 +319,9 @@
 									<div class="select-style">
 										<select>
 										<option value="filliere">filier</option>
-										<option value="isi">finace de banque</option>
-										<option value="RT">marketing</option>
-										<option value="IG">ressource humaines</option>
+										<option value="1">finace de banque</option>
+										<option value="2">marketing</option>
+										<option value="3">ressource humaines</option>
 										</select>
 									  </div>
 								</div>
@@ -338,10 +338,10 @@
 											<div class="select-style">
 												<select>
 												<option value="filliere">filier</option>
-												<option value="isi">Genie des materiel et de procedes</option>
-												<option value="RT">Electromanetique</option>
-												<option value="IG">Architecture</option>
-												<option value="#">Geomines</option>
+												<option value="1">Genie des materiel et de procedes</option>
+												<option value="2">Electromanetique</option>
+												<option value="3">Architecture</option>
+												<option value="4">Geomines</option>
 												</select>
 											  </div>
 		                				</div>
@@ -370,9 +370,9 @@
 		                					<div class="select-style">
 												<select>
 												<option value="filliere">filier</option>
-												<option value="isi">ingenieurie des systeme informatique</option>
-												<option value="RT">reseaux et telecommunication</option>
-												<option value="IG">informatique de gestion</option>
+												<option value="1">ingenieurie des systeme informatique</option>
+												<option value="2">reseaux et telecommunication</option>
+												<option value="3">informatique de gestion</option>
 												</select>
 											  </div>
 		                				</div>
