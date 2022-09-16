@@ -268,7 +268,7 @@
 			                			<div class="plan-total">
 		                					<span class="plan-title">Informatique</span>
 											<div class="select-style">
-												<select>
+												<select name="">
 												<option value="filliere">filier</option>
 												<option value="isi">ingenieurie des systeme informatique</option>
 												<option value="RT">reseaux et telecommunication</option>
@@ -424,7 +424,9 @@
 							</div>
 								
 			            </section>
-						<input type="submit"  value="venvoyer" name="valider"/>
+						<center>
+						<input type="submit"  value="envoyer" name="valider"/>
+						</center>
 		        	</div>
 					
 		        </form>
