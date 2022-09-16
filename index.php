@@ -77,7 +77,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Téléphone</legend>
-											<input type="text" class="form-control"  name="Telephone"  required>
+											<input type="text" class="form-control"  name="telephone"  required>
 										</fieldset>
 									</div>
 								</div>
@@ -101,7 +101,7 @@
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
 										<legend>Date de Naissance</legend>
-										<input type="DATE" name="date_de_naissance" >
+										<input type="DATE" name="Date_de_naissance" >
 									</div>
 
 									<div class="form-holder">
@@ -148,7 +148,7 @@
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Adresse de Résidence</legend>
-										<input type="text" class="form-control input-border" name="adresse_de_Résidence" placeholder="Adresse de Résidence" required>
+										<input type="text" class="form-control input-border" name="adresse_de_Residence" placeholder="Adresse de Résidence" required>
 									</div>
 								</div>
 								<div class="form-row form-row-date">
