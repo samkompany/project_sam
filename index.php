@@ -170,7 +170,9 @@
 							</div>
 			            </section>
 						<!-- SECTION 2 -->
-			           
+						<center>
+						<input type="submit"  value="envoyer" name="valider"/>
+						</center>
 					
 		        </form>
 			</div>
