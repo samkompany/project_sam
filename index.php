@@ -16,7 +16,7 @@
 	<div class="page-content">
 		<div class="form-v1-content">
 			<div class="wizard-form">
-				<form class="form-register" action="#" method="post">
+				<form class="form-register" action="index.php" method="post">
 					<div style="text-align:center;margin-top:20px;">
 						<img src="images/upl.png"  alt="" width="60" height="60">
 								 <h1 class="heading">Bienvenue sur  UPL - INSCRIPTION</h1>
@@ -69,7 +69,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Votre Email</legend>
-											<input type="text" name="email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="exemple@email.com" required>
+											<input type="text" name="email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="exemple@email.com" required/>
 										</fieldset>
 									</div>
 								</div>
@@ -77,7 +77,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Téléphone</legend>
-											<input type="tel" class="form-control"  name="Telephone" placeholder="+243" required>
+											<input type="text" class="form-control"  name="Telephone"  required>
 										</fieldset>
 									</div>
 								</div>
@@ -94,26 +94,26 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>provice d'origine de parents</legend>
-											<input type="text" class="form-control" name="province_d'horigine_des_parent" placeholder="provice d'origine de parents" required>
+											<input type="text" class="form-control" name="province_d_horigine_des_parent"  required>
 										</fieldset>
 									</div>
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
 										<legend>Date de Naissance</legend>
-										<input type="hidden" name="date_de_naissance" value="'.date("y-m-d").'">
+										<input type="DATE" name="date_de_naissance" >
 									</div>
 
 									<div class="form-holder">
 										<fieldset>
 											<legend>district</legend>
-											<input type="text" class="form-control"  name="district" placeholder="district" required>
+											<input type="text" class="form-control"  name="district"  required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>territoire</legend>
-											<input type="text" class="form-control" name="territoire" placeholder="territiore" required>
+											<input type="text" class="form-control" name="territoire"  required>
 										</fieldset>
 									</div>
 								</div>
@@ -121,26 +121,26 @@
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Lieu de Naissance</legend>
-										<input type="text" class="form-control input-border" name="Lieux_de_naissance" placeholder="Lieu de Naissance" required>
+										<input type="text" class="form-control input-border" name="Lieux_de_naissance"  required>
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Nationalité</legend>
-										<input type="text" class="form-control input-border"  name="Nationalite" placeholder="Nationalité" required>
+										<input type="text" class="form-control input-border"  name="Nationalite"  required>
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>Etat Civil</legend>
-										<input type="text" class="form-control input-border" name="etats_civil" placeholder="Etat Civil" required>
+										<input type="text" class="form-control input-border" name="etats_civil"  required>
 									</div>
 								</div>
 
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<legend>identite  et adresse de la personne a conctacter en cas d'urgence</legend>
-										<input type="text" class="form-control input-border" name="identite_en cas d'urgence" placeholder="nom_adresse_numero...." required>
+										<input type="text" class="form-control input-border" name="identite_en_cas_durgence" placeholder="nom_adresse_numero...." required>
 									</div>
 								</div>
 
@@ -185,7 +185,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>diplome d'acces a l'enseignement superieur et universitaire</legend>
-											<input type="text" name="diplome_acces" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Nom de l'établissement fréquenté" required>
+											<input type="text" name="diplome_acces" class="form-control"  placeholder="Nom de l'établissement fréquenté" required>
 										</fieldset>
 									</div>
 								</div>
@@ -193,7 +193,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Adresse de l'établissement</legend>
-											<input type="text" name="adresse-ecole" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Adresse de l'établissement" required>
+											<input type="text" name="adresse-ecole" class="form-control"  required>
 										</fieldset>
 									</div>
 								</div>
@@ -201,7 +201,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Section suivie aux humanités</legend>
-											<input type="text" name="section_humanites" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Section suivie aux humanités" required>
+											<input type="text" name="section_humanites" class="form-control"  placeholder="Section suivie aux humanités" required>
 										</fieldset>
 									</div>
 								</div>
@@ -223,7 +223,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Numéro du diplome d'Etat</legend>
-											<input type="text" name="numero_diplome" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Numéro du diplome d'Etat" required>
+											<input type="text" name="numero_diplome" class="form-control"  placeholder="Numéro du diplome d'Etat" required>
 										</fieldset>
 									</div>
 								</div>
@@ -231,7 +231,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>province</legend>
-											<input type="text" name="province"  class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="" required>
+											<input type="text" name="province"  class="form-control"  placeholder="" required>
 										</fieldset>
 									</div>
 
@@ -416,7 +416,7 @@
 											gauche.
 										</p>
 							</div>
-							<input type="submit" value="valider" name="valider"/>
+							
 							<div class="wizard-header">
 								<a href="https://upl-univ.ac/">
 									<h5 class="heading" name>Revenier sur le site</h5>
@@ -424,6 +424,7 @@
 							</div>
 								
 			            </section>
+						<input type="submit"  value="venvoyer" name="valider"/>
 		        	</div>
 					
 		        </form>
@@ -438,10 +439,10 @@
 
 <?php
 
-if(isset($_POST['prenom']))
+if(isset($_POST['nom ']))
 {
 
-$con = new PDO("mysql:host=localhost;dbname=projet",'root','');
+	$con = new PDO("mysql:host=localhost; dbname=projet",'root','');
 
 $nom = $_POST['nom'];
 $post_nom = $_POST['post_nom'];
@@ -467,7 +468,7 @@ $Pourcentage_du_diplome=$_POST['Pourcentage_du_diplome'];
 $numero_diplome=$_POST['numero_diplome'];
 $province=$_POST['province'];
 
-$sql = "INSERT INTO inscription (nom,post_nom,pre_nom,email,telephone,nom_des_parent,province_d_horigine_de_parent,date_de_naissance,
+$sql = " INSERT INTO  user(nom,post_nom,pre_nom,email,telephone,nom_des_parent,province_d_horigine_de_parent,date_de_naissance,
 district,terriroire,lieux_de_naissance,Nationalite,etat_civil, identite_en_cas_durgence,adresse_de_Résidence,genre,
 diplome_acces,adresse_ecole,section_humanites,annee_diplome,Pourcentage_du_diplome,numero_diplome,province) VALUES  (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt = $con->prepare($sql);
